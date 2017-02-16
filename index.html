@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		
+		<title>Spotify Web App</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<script  src="jquery-3.1.1.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<script src="musicScript.js"></script>
+		<link rel="stylesheet" href="musicStyle.css">
+		
+	</head>
+
+	<body>
+	
+		<div class="container-fluid">
+		
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<h1 id="logo">SpotQuick</h1>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+			<br>
+			<div class="row">
+				
+				<div class="col-sm-4"></div>
+				
+				<div class="col-sm-4" id="searchSelector" >
+
+					<div class="col-sm-4" id="artist" onclick="selectSearchType(this.id)" style = "color: white" ><h2>Artist</h2></div>
+					<div class="col-sm-4" id="album" onclick="selectSearchType(this.id) "><h2>Album</h2></div>
+					<div class="col-sm-4" id="track" onclick="selectSearchType(this.id) "><h2>Song</h2></div>
+					
+				</div>
+				
+				<div class="col-sm-4"></div>
+								
+				
+			</div>
+				
+			<div class="row">
+				<div class="col-sm-4"></div>
+				
+				<div class="col-sm-4">
+					 
+						<div class="input-group stylish-input-group">
+							<input type="text" class="form-control"  placeholder="Search" id="searchBar" onkeydown="checkForEnterKey(event)" >
+							<div class="input-group-addon" onclick="searchForEnteredData()" >
+								<button type="submit">
+									<span class="glyphicon glyphicon-search" style="color:white; background-color:#4e4e4e"></span>
+								</button>  
+							</div>
+						</div>
+				
+				</div>
+				
+				
+				<div class="col-sm-4"></div>
+				
+			</div>
+			<br>
+			
+			<div class="row" id="albumPadding">	</div>
+
+			
+					<div id="covers"></div>
+					
+				</div>
+			</div>
+		
+		</div> 
+		
+	</body>
+
+
+</html>

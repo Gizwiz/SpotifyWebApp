@@ -1,0 +1,211 @@
+body{
+	background-image: url("images/backgroundBlackPattern.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	color: black; /*Color for inheritance*/
+}
+
+.col-lg-4{
+	display: flex;
+	color: black;
+}
+
+.col-lg-4 :hover{
+	cursor: pointer;
+}
+
+.col-md-3{
+	color: black;
+}
+
+.col-sm-6{
+	text-align: center;
+}
+
+
+#searchSelector .col-sm-4{
+	color: black;
+	text-align: center;
+	cursor: pointer;
+	-o-transition:.6s;
+    -ms-transition:.6s;
+    -moz-transition:.6s;
+    -webkit-transition:.6s;
+    transition: .6s;
+}
+
+
+#searchSelector .col-sm-4 :hover{
+	color: white;
+	cursor: pointer;
+	-o-transition:.6s;
+    -ms-transition:.6s;
+    -moz-transition:.6s;
+    -webkit-transition:.6s;
+    transition: .6s;
+}
+
+#searchSelector .col-sm-4 :active{ 
+	color: white;
+	cursor: pointer;
+	color: white;
+	cursor: pointer;
+	-o-transition:.6s;
+    -ms-transition:.6s;
+    -moz-transition:.6s;
+    -webkit-transition:.6s;
+    transition: .6s;
+}
+
+.col-sm-4 :hover{
+	color:white;
+}
+
+#covers{
+	
+	margin-top: 3em;
+}
+
+
+#logo{
+	color: #035b18;
+	font-size: 8em;
+	text-align: center;
+}
+
+.stylish-input-group{
+	margin-top:1%;
+}
+
+.stylish-input-group .input-group-addon{
+    background: #4e4e4e !important; 
+	color:white !important;
+}
+
+.stylish-input-group .input-group-addon :hover{
+	color:limegreen !important;
+}
+
+.stylish-input-group .form-control{
+	color: black;
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+	
+}
+
+
+#albumPadding .col-lg-4{
+	padding: 2em;
+	background-image: url("images/coverBackground.jpg");
+	margin: auto;
+	
+}
+
+#albumPadding .col-xs-8{
+
+	background-image: url("images/coverBackground.jpg");
+	text-align: center;
+}
+#albumPadding .col-xs-12{
+	padding: 0.75em;
+	background-image: url("images/coverBackground.jpg");
+	margin: auto;
+	
+}
+
+#albumPadding .col-lg-12{
+	
+	padding: 0.75em;
+	background-image: url("images/coverBackground.jpg");
+	margin: auto;
+	text-align: center;
+}
+
+
+#albumPadding p{
+	margin-left:2%;
+	text-align: left;
+	font-size: 1.35em;
+	vertical-align: middle;
+}
+
+#albumPadding .col-lg-4 img{
+
+	height: 10em;
+	width: 10em; 
+	
+}
+
+
+#albumPadding .col-xs-8 img{
+	margin: 2%;
+	padding: 1px;
+	position: relative;
+	float: left;
+	height: 20em;
+	width: 20em; 
+	z-index: 0;
+}
+
+
+#albumPadding {
+	padding: 5em;
+}
+
+.col-xs-8 p{
+	vertical-align: middle !important;
+	text-align:  left!important;
+}
+
+.col-xs-8 h1, h3{
+	vertical-align: middle;
+	text-align: left;
+	
+}
+
+@font-face {
+	font-family: secondaryFont;
+	src: url(Traffolight.otf);
+}
+
+#artist {
+	font-family: secondaryFont;
+}
+
+#album {
+	font-family: secondaryFont;
+}
+
+#trackSelect {
+	font-family: secondaryFont;
+}
+
+#logo {
+	font-family: secondaryFont;
+}
+
+#searchBar {
+	background: #4e4e4e;
+	color: white;
+}
+
+.button {
+	background-color: #4e4e4e;
+}
+
+audio{
+	
+	background-color:  color: grey !important;
+	vertical-align: middle;
+	padding 5px;
+	
+}
+
